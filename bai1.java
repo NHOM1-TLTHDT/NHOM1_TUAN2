@@ -1,11 +1,11 @@
-import java.util.Scanner;
+import java.util.*;
 
-public class bai1 {
+public class bai1{
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-        System.out.println( " mời nhập tên");
-        String ten = sc.nextLine();
-        System.out.println(" hello " + tên );
+        System.out.println("nhap ten");
+        String A = sc.nextLine();
+        System.out.print("Hello " + A);
+        sc.close();
     }
 }
